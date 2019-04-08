@@ -1,0 +1,36 @@
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install wget unzip -y
+sudo apt-get install build-essential cmake pkg-config -y
+sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng-dev libpng++-dev -y
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libavresample-dev libgphoto2-dev -y
+sudo apt-get install libxvidcore-dev libx264-dev -y
+sudo apt-get install libgtk-3-dev -y
+sudo apt-get install libatlas-base-dev gfortran -y
+sudo apt-get install libdc1394-22-dev -y
+sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libgstreamer-ocaml-dev libgstreamer0.10-0-dbg libgstreamer0.10-0 libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev -y
+sudo apt-get install libunicap2 libunicap2-dev libdc1394-22-dev libdc1394-22 libdc1394-utils libv4l-0 libv4l-dev -y
+sudo apt-get install libgtkglext1-dev libopenexr-dev -y 
+sudo apt-get install freeglut3 freeglut3-dev binutils-gold libglew-dev mesa-common-dev build-essential libglew1.5-dev libglm-dev -y
+sudo apt-get install openjdk-8-jdk openjdk-8-jre ant -y
+sudo apt-get install libatlas-base-dev liblapacke-dev libopenblas-dev libeigen3-dev -y
+sudo apt-get install libprotobuf-dev protobuf-compiler libprotobuf-c-dev libprotobuf-java libhdf5-serial-dev libhdf5-dev -y
+sudo apt-get install libgflags-dev python3-gflags libgoogle-glog-dev liblmdb-dev libboost-all-dev -y
+sudo apt-get install libx11-dev xorg-dev libglu1-mesa-dev freeglut3-dev libglew1.5 libglew1.5-dev libglu1-mesa libglu1-mesa-dev libgl1-mesa-glx libgl1-mesa-dev libgtkglextmm-x11-1.2-dev -y
+sudo apt-get install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev mesa-utils -y
+sudo apt-get install libflann1.9 libflann-dev libpcap-dev -y
+sudo apt-get install libusb-dev libusb-1.0-0 libusb-1.0-0-dev libusb-java libusb-ocaml libusb-ocaml-dev -y
+sudo apt-get install doxygen libgnuplot-iostream-dev libgnuplot-ocaml-dev graphviz -y 
+sudo apt-get install libtcl8.6 libtk8.6 libtcl-perl libtclcl1 libtclcl1-dev libtk-img libtk-img-dev -y
+sudo apt-get install curl libcurlpp-dev libcurl-ocaml libcurl-ocaml-dev libjson-c-dev libjson-c3 libjsoncpp1 libjsoncpp-dev -y
+sudo apt-get install libav-tools libgtest-dev libboost-all-dev libjson-glib-dev libjson-glib-1.0-0 libjson-glib-1.0-common -y
+sudo apt-get install libxcb1 libxcb1-dev libx11-xcb1 libx11-xcb-dev libxcb-keysyms1 libxcb-keysyms1-dev libxcb-image0 libxcb-image0-dev libxcb-shm0 libxcb-shm0-dev libxcb-icccm4 libxcb-icccm4-dev libxcb-sync1 libxcb-sync-dev libxcb-xfixes0-dev libxrender-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0 libxcb-render-util0-dev libxcb-glx0-dev libxcb-xinerama0-dev -y
+sudo apt-get install libopenni-dev libopenni2-dev -y
+sudo apt-get install libpng-dev libpng++-dev -y
+sudo apt-get install libqhull-dev -y
+sudo apt install libxine2-all-plugins libxine2-dev -y
+sudo ln -s /usr/include/libv4l1-videodev.h   /usr/include/linux/videodev.h 
+pip install jinja2
+pip3 install jinja2
+pip install pylint
+pip3 install pylint
